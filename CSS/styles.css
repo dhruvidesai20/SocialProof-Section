@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: 'Spartan', sans-serif;
   font-size: 15px;
-  background: url("https://github.com/dhruvidesai20/SocialProof-Section/blob/master/Images/bg-pattern-top-desktop.svg") left top no-repeat, url("https://github.com/dhruvidesai20/SocialProof-Section/blob/master/Images/bg-pattern-bottom-desktop.svg") right bottom no-repeat;
+  background: url("file:///Images/bg-pattern-top-desktop.svg") left top no-repeat, url("https://github.com/dhruvidesai20/SocialProof-Section/blob/master/Images/bg-pattern-bottom-desktop.svg") right bottom no-repeat;
 }
 
 /* Title */
