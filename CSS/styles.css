@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  background: url("file:///C:/Users/Deepak/Desktop/webd%20(1)/SocialProof/Images/bg-pattern-top-desktop.svg") left top no-repeat, url("file:///C:/Users/Deepak/Desktop/webd%20(1)/SocialProof/Images/bg-pattern-bottom-desktop.svg") right bottom no-repeat;
+}
+
+/* Title */
+#title-section {
+  padding: 5% 6%;
+}
+
+.title-heading {
+  color: hsl(300, 43%, 22%);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 35%;
+}
+
+.title-text {
+  color: hsl(303, 10%, 53%);
+}
+
+.rating-box {
+  background: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+  line-height: 0.5;
+}
+
+.first-box {
+  margin-left: 0;
+}
+
+.second-box {
+  margin-left: 50px
+}
+
+.third-box {
+  margin-left: 100px
+}
+
+.rating-text, .star {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  padding: 20px 30px 0 20px;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+/* Testimonial Section */
+#testimonial-section {
+  padding: 0 6% 5.5% 6%;
+  font-size: 0.7rem;
+}
+
+.review-box {
+  background: hsl(300, 43%, 22%);
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin: 10px 0 0;
+}
+
+.review {
+  color: hsl(0, 0%, 100%);
+  padding-top: 5%;
+}
+
+.review2 {
+  margin-top: 20px;
+}
+
+.review3 {
+  margin-top: 40px;
+}
+
+.customer-img {
+  border-radius: 100%;
+  float: left;
+  margin-right: 3%;
+  width: 60px;
+}
+
+.customer-name {
+  color: hsl(0, 0%, 100%);
+}
+
+.customer-text {
+  color: hsl(333, 80%, 67%);
+
+}
+
+
+/* Media Query */
+
+@media (max-width:600px) {
+  body {
+    background: url("file:///C:/Users/Deepak/Desktop/webd%20(1)/SocialProof/Images/bg-pattern-top-mobile.svg") left top no-repeat, url("file:///C:/Users/Deepak/Desktop/webd%20(1)/SocialProof/Images/bg-pattern-bottom-mobile.svg") right bottom no-repeat;
+  }
+
+  #title-section {
+    text-align: center;
+  }
+
+  .first-box, .second-box, .third-box {
+    margin: 10px auto;
+    padding-bottom: 10px;
+  }
+
+  .title-heading {
+    margin: 0;
+  }
+
+  .review1, .review2, .review3 {
+    margin-top: 20px;
+  }
+}
