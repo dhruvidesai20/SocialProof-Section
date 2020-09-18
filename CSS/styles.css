@@ -121,4 +121,8 @@ footer{
   .review1, .review2, .review3 {
     margin-top: 20px;
   }
+
+  #testimonial-section{
+  font-size:1rem;
+  }
 }
